@@ -1,0 +1,35 @@
+*, * ::before, *::after{box-sizing: border-box;}
+
+body{
+    padding-left: 350px;
+    padding-top: 100px;
+}
+.header{
+    border: solid black 3px;
+    background-color:lightslategrey;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    font-size: larger;
+}
+.main-Container{
+    border : solid black 3px;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.options{
+    border: solid red 2px;
+    height: 50%;
+    width: auto;
+    padding: 10px;
+}
+.divContainer{
+    border: solid brown 2px;
+    height: 90%;
+    width: 80%;
+    display: flex;
+}
