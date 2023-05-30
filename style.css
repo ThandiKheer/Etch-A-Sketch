@@ -10,7 +10,8 @@ body{
     width: 900px;
     height: auto;
     text-align: center;
-    font-size: larger;
+    font-family: 'Frijole', cursive;
+    font-size: 25px;
 }
 .main-Container{
     border : solid black 3px;
@@ -20,17 +21,54 @@ body{
     align-items: center;
     gap: 20px;
     padding: 20px;
+    background-color: black;
 }
 .options{
-    border: solid red 2px;
+    border-radius: 12px;
     height: 50%;
     width: auto;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
 }
+.btn1,
+.btn2,
+.eraseBtn{
+    cursor: pointer;
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+            font-size: 1.3em;
+            padding: 5px 15px;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+}
+.btn1:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    background: #000;
+    color: #FFF;
+}
+.btn2:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    background: #000;
+    color: #FFF;
+}
+.eraseBtn:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    background: #000;
+    color: #FFF;
+}
+
 .divContainer{
-    border: solid brown 2px;
     height: 90%;
     width: 80%;
     display: flex;
+    background: white;
+    border: solid lightslategrey 3px;
 }
 
